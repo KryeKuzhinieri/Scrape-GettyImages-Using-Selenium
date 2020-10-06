@@ -38,8 +38,8 @@ If the dependencies have been installed correctly, you need to provide 4 differe
 
 * *person_name*: File's name (i.e: JohnTravolta)
 * *url*: GettyImages.com url (i.e: https://www.gettyimages.com/photos/john-travolta?family=editorial&phrase=john%20travolta&sort=mostpopular#license)
-* *dir*: Name of the directory you want to save the files. If the folder does not exist, it will create a new one.
-* *pages*: Number of pages that you want to scrape from the website.
+* *dir*: Name of the directory you want to save the files. If the folder does not exist, it will create a new one. (i.e: data)
+* *pages*: Number of pages that you want to scrape from the website. (i.e: 52)
 
 ## License
 
