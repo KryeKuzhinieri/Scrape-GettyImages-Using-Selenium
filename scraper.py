@@ -43,6 +43,7 @@ if __name__ == '__main__':
     dir = input('Please Provide The Directory Where The Data Will be Saved: \n')
     pages = int(input('Please Provide How Many Pages You Want To Be Scrapped: \n'))
     driver = webdriver.Firefox()
+    # driver = webdriver.Chrome() # IF YOU ARE USING CHROME.	
     driver.maximize_window()
     driver.get(url)
     if not os.path.isdir(dir): # If the folder does not exist in working directory, create a new one.
