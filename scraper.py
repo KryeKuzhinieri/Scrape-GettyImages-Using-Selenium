@@ -20,7 +20,7 @@ def browse_page(person_name, pages, dir):
         try:
             driver.execute_script('window.scrollTo(0, document.body.scrollHeight);') # Scroll to the end of page.
             time.sleep(2) # Wait for all the images to load correctly.
-            images = driver.find_elements_by_xpath("//img[contains(@class, 'gallery-asset__thumb gallery-mosaic-asset__thumb')]") # Find all images.
+            images = driver.find_elements("xpath", "//img[contains(@class, 'MosaicAsset-module__thumb___yvFP5')]") # Find all images.
         except:
             continue
 
