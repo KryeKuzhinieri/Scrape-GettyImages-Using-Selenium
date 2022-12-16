@@ -41,6 +41,10 @@ If the dependencies have been installed correctly, you need to provide 4 differe
 * *dir*: Name of the directory you want to save the files. If the folder does not exist, it will create a new one. (i.e: data)
 * *pages*: Number of pages that you want to scrape from the website. (i.e: 52)
 
+
+## Contributors
+[Enes Ahmeti](https://github.com/KryeKuzhinieri/Scrape-GettyImages-Using-Selenium), [skomposzczet](https://github.com/skomposzczet)
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
