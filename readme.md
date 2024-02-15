@@ -43,7 +43,7 @@ If the dependencies have been installed correctly, you need to provide 4 differe
 
 
 ## Contributors
-[Enes Ahmeti](https://github.com/KryeKuzhinieri/Scrape-GettyImages-Using-Selenium), [skomposzczet](https://github.com/skomposzczet)
+[Enes Ahmeti](https://github.com/KryeKuzhinieri/Scrape-GettyImages-Using-Selenium), [skomposzczet](https://github.com/skomposzczet), [mkofdwu](https://github.com/mkofdwu)
 
 ## License
 
