@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 import urllib.request
 import time
 import os
@@ -20,8 +21,8 @@ def browse_page(person_name, pages, dir):
         try:
             driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')  # Scroll to the end of page.
             time.sleep(2)  # Wait for all the images to load correctly.
-            images = driver.find_elements("xpath",
-                                          "//img[contains(@class, 'MosaicAsset-module__thumb___yvFP5')]")  # Find all images.
+            images = driver.find_elements(By.CSS_SELECTOR, 'picture > img')  # Find all images.
+            print("Found", len(images), "images")
         except:
             continue
 
